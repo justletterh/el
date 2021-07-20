@@ -1,0 +1,1 @@
+@for %%A in (%*) do @.\t .\main.%%A
