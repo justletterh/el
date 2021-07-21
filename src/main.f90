@@ -1,7 +1,6 @@
 program prgm
   implicit none
-  integer :: o
-  o=main()
+  call main
 contains
   subroutine l(s)
     implicit none
@@ -10,9 +9,8 @@ contains
     return
   end subroutine l
 
-  integer function main() result(oo)
+  subroutine main()
     implicit none
-    oo=0
     call l("Fortan")
-  end function main
+  end subroutine main
 end program prgm
