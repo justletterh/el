@@ -1,0 +1,6 @@
+class Main_
+    def l(s as String)
+        print s
+
+    def main
+        .l("Cobra")
