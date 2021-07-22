@@ -1,0 +1,6 @@
+l = s -> print s
+
+def main():
+  l("Coconut")
+
+main()
